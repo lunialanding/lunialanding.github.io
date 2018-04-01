@@ -1,0 +1,193 @@
+body {
+  font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 300;
+}
+
+header {  
+background-color: rgba(70,50,110,0.5);  
+}
+
+.logo {
+  max-height: 35px;
+}
+
+.video-background-wrap {
+   position: fixed;
+   z-index: -1000;
+   width: 100%;
+   height: 100%;
+   overflow: hidden;
+   top: 0;
+   left: 0;
+ }
+ 
+ #video-bg-elem {
+   position: absolute;
+   top: 0;
+   left: 0;
+   min-height: 100%;
+   min-width: 100%;
+
+ }
+
+ .video-content {
+   position: relative;
+   width: 100%;
+   min-height: 100%;
+   z-index: 1000;
+
+   padding-top: 12rem;
+   padding-bottom: 12rem;
+   
+ }
+
+.bg-white {
+  background: white;
+}
+
+header.masthead h1 {
+  font-size: 2rem;
+}
+
+
+@media (min-width: 768px) {
+  header.masthead h1 {
+    font-size: 3rem;
+  }
+}
+
+.showcase .showcase-text {
+  padding: 3rem;
+}
+
+.showcase .showcase-img {
+  min-height: 30rem;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+@media (min-width: 768px) {
+  .showcase .showcase-text {
+    padding: 7rem;
+  }
+}
+
+.subsection-alternate {
+  background-color: #201334;
+  min-height: 30rem;
+}
+
+
+@media (max-width: 768px) {
+  .subsection-alternate {
+  padding-bottom: 2rem;
+}
+}
+
+.features-icons {
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+}
+
+.features-icons .features-icons-item {
+  max-width: 20rem;
+}
+
+.features-icons .features-icons-item .features-icons-icon {
+  height: 7rem;
+}
+
+.features-icons .features-icons-item .features-icons-icon i {
+  font-size: 4.5rem;
+}
+
+.features-icons .features-icons-item:hover .features-icons-icon i {
+  font-size: 5rem;
+}
+
+.testimonials {
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+}
+
+.testimonials .testimonial-item {
+  max-width: 18rem;
+}
+
+.testimonials .testimonial-item img {
+  max-width: 12rem;
+  box-shadow: 0px 5px 5px 0px #adb5bd;
+}
+
+.call-to-action {
+  position: relative;
+  background-color: #201334;
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+}
+
+.call-to-action .overlay {
+  position: absolute;
+  background-color: #201334;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  opacity: 0.3;
+}
+
+
+.main-color-text  {
+  color: #8d60d4;
+  
+}
+
+.secondary-color-text {
+  color:  #212529;
+}
+
+.tertiary-color-text {
+  color:  #eb008b;
+}
+
+.p-text {
+  color:  #5d5d5d;
+  font-size: 0.91rem;
+}
+
+.fs-padding {
+  padding-right: 2rem;
+  padding-left: 2rem;
+}
+
+.contact{
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.bold-text {
+  font-weight: 500;
+}
+
+footer.footer {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.chatbot-vid {
+  max-height: 400px;
+}
+
+.email-address:hover {
+   color:  #eb008b;
+
+}
