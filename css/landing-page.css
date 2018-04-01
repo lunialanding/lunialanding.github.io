@@ -16,6 +16,10 @@ header {
 background-color: rgba(70,50,110,0.5);  
 }
 
+.main-header {
+  font-weight: 700;
+}
+
 .logo {
   max-height: 35px;
 }
