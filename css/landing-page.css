@@ -149,6 +149,15 @@ header.masthead h1 {
   opacity: 0.3;
 }
 
+.demolink {
+  text-decoration: none;
+  color:white;
+}
+
+.demolink:hover {
+  text-decoration: underline;
+  color:white;
+}
 
 .main-color-text  {
   color: #8d60d4;
