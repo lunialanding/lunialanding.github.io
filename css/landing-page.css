@@ -172,6 +172,14 @@ header.masthead h1 {
   color:  #eb008b;
 }
 
+.howitworks {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+.howitworks-color-text {
+  color: #aaaaaa;
+}
+
 .p-text {
   color:  #5d5d5d;
   font-size: 0.91rem;
