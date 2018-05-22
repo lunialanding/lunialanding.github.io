@@ -135,8 +135,8 @@ header.masthead h1 {
 .call-to-action {
   position: relative;
   background-color: #201334;
-  padding-top: 7rem;
-  padding-bottom: 7rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
 }
 
 .call-to-action .overlay {
